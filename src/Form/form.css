@@ -1,0 +1,199 @@
+.screen {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0d80bacf;
+}
+.container{
+  height: 100%;
+}
+.outer-form {
+  position: fixed;
+  top: 70px;
+  left: 24%;
+  width: 53%;
+  height: 80%;
+  border-radius: 25px;
+}
+/* ============================================= Left Side ========================*/
+.left-side{
+  height: 100%;
+  width: 30%;
+  background-color: #FAC92E;
+  float: left;
+  border-top-left-radius: 25px;
+
+}
+.overlay-img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url("girl1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 75%;
+  background-position-y:180px;
+  background-position-x:center;
+}
+.overlay-img img{
+  width: 42%;
+  position: absolute;
+  top: -43px;
+  border-radius: 50%;
+  background: #FAC92E;
+  left: 30%;
+  padding: 3%;
+}
+.overlay-img h2{
+  position: absolute;
+  font-family: Arial;
+  color: #FFF;
+  font-size: 16px;
+  transform: rotate(-15deg);
+  top: 10%;
+  left: 10%;
+}
+/* ================================ Right Side =============================== */
+.right-side{
+  height: 100%;
+  width: 70%;
+  background-color: #E8F5FB;
+  float: right;
+  border-top-right-radius: 25px;
+  position: relative;
+
+}
+.right-side h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+
+}
+/* .right-side form input[type=text]{
+  width: 80%;
+  height: 100px;
+  margin-left: 9%;
+  border: 1px solid #9e9e9e;
+  background-color: #e1eef5;
+} */
+.right-side .input-field .materialize-textarea{
+  width: 80%;
+  height: 100px;
+}
+
+.right-side form p {
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial;
+  width: 65%;
+  margin-left: 18%;
+
+}
+.right-side .input-field .col .s7 .offset-s2 {
+  margin-bottom: 0;
+}
+
+.right-side form .form-but {
+    position: absolute;
+    bottom: -20px;
+    right: -30px;
+    margin-bottom: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 55%;
+    background: #E8F5FB;
+    border-radius: 55%;
+    border: 5px solid #E8F5FB;
+    overflow: hidden;
+}
+
+.right-side form .form-but .btn {
+  position: absolute;
+  margin-bottom: 0;
+  width: 75px;
+  height: 74px;
+  border-radius: 55%;
+
+  font-size: 16px;
+}
+.right-side form .form-but  .dis {
+  background: #D5D9DC;
+}
+
+.right-side form .form-but .act {
+  background:#31D550
+}
+
+.right-side .close-btn{
+  position: absolute;
+  bottom: -20px;
+  right: 55px;
+  margin-bottom: 0;
+  width: 72px;
+  height: 67px;
+  border-radius: 55%;
+  border-radius: 55%;
+  border: 5px solid #E8F5FB;
+  overflow: hidden;
+}
+
+.right-side .close-btn .btn {
+  position: absolute;
+  margin-bottom: 0;
+  width: 65px;
+  height: 60px;
+  border-radius: 55%;
+  background: #EF4722;
+  font-size: 11px;
+}
+
+.right-side .done {
+  position: absolute;
+  bottom: -20px;
+  right: -30px;
+  margin-bottom: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 55%;
+  background: #E8F5FB;
+  border-radius: 55%;
+  border: 5px solid #E8F5FB;
+  overflow: hidden;
+}
+.right-side .done .btn {
+  position: absolute;
+  margin-bottom: 0;
+  width: 75px;
+  height: 74px;
+  border-radius: 55%;
+  font-size: 16px;
+  background:#31D550
+}
+.right-side .done-h {
+  margin-top: 25%;
+  font-family: inherit;
+  color: #4c4c4c;
+}
+.right-side .done-p {
+    width: 79%;
+    margin-left: 10%;
+    font-family: initial;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+
+}
+.right-side .done-h3 {
+  text-align: center;
+    color: #DF8B08;
+    font-size: 20px;
+    font-family: 'Petit Formal Script', cursive;
+
+    margin-top: 0;
+}
+.right-side img {
+  width: 45px;
+height: 45px;
+margin-left: 43%;
+}

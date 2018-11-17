@@ -1,25 +1,44 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Form from "./Form/Form";
 import './App.css';
 
 class App extends Component {
+  state = {
+    active : false
+  }
+
+  clickShow = ()=> {
+    this.setState({
+      active : true
+    })
+  }
+
+  clickHide = ()=> {
+    this.setState({
+      active : false
+    })
+  }
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="app">
+        <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+        <div class='title'>Ibrahem.Form</div>
+      </div>
+        <div className="back">
+          <div className="button_base b07_3d_double_roll" onClick={this.clickShow}>
+              <div>Contact Us</div>
+              <div>Click Me</div>
+              <div>Contact Us</div>
+              <div>Click Me</div>
+          </div>
+        </div>
+        { this.state.active && <Form hide={this.clickHide} /> }
+
       </div>
     );
   }
